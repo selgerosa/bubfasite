@@ -1,5 +1,5 @@
 body {
-
+  height:100vh;
     font-family: mr-eaves-sans, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -15,11 +15,18 @@ h2 {
 p{
   font-size: 3vw;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 /* font-family: 'Space Mono', monospace;
 font-family: 'Yatra One', cursive; */
 
 
 .parent {
+  position: absolute;
+  top: 0;
+  height: 100vh;
   background-image: url('bg.png');
   background-size: contain;
   background-repeat: no-repeat;
