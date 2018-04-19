@@ -18,7 +18,18 @@ p{
 }
 a {
   text-decoration: none;
-  color: black;
+}
+.a1, .a1:visited {
+  color: #FF3EB5;
+}
+.a2, .a2:visited {
+  color: #FFAA4D;
+}
+.a3, .a3:visited {
+  color: #44D62C;
+}
+.a4, .a4:visited {
+  color: #74D1EA;
 }
 /* flex box */
 .parent {
@@ -34,7 +45,7 @@ a {
 }
 
 .child {
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
