@@ -104,6 +104,7 @@ a {
 
 /* work */
 #work {
+  height: auto;
   background-image: none;
   justify-content: space-around;
 }
